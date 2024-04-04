@@ -6,6 +6,7 @@ function Form() {
     email: '',
     message: '',
   });
+
   return (
     <form
       name="contact"
