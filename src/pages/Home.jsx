@@ -13,7 +13,7 @@ const Home = () => {
     <main>
       <Container className="py-8">
         <section className="w-full flex justify-between md:flex-row flex-col-reverse px-4 gap-4">
-          <div className="name-card max-w-xl relative mt-20 border-4 border-white border-b-transparent border-r-transparent t py-4 md:py-8 px-8 md:px-16 rounded-3xl rounded-tr-none rounded-bl-none shadow-lg animate-FadeIn">
+          <div className="name-card max-w-xl relative mt-20 border-4 border-white border-b-transparent border-r-transparent py-4 md:py-8 px-8 md:px-16 rounded-3xl rounded-tr-none rounded-bl-none shadow-lg animate-FadeIn">
             <div className="flex items-center">
               <h1 className="md:text-2xl text-xl mb-2">
                 Hey, I&apos;m{' '}
