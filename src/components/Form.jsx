@@ -8,6 +8,8 @@ function Form() {
   });
   return (
     <form
+      name="contact"
+      method="POST"
       onSubmit={(e) => {
         e.preventDefault();
         console.log(formData);
@@ -19,6 +21,7 @@ function Form() {
       }}
       className="flex flex-col gap-2 w-full text-white"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <label htmlFor="name">
         Full Name: <span className="text-red-600 select-none">*</span>
         <input
