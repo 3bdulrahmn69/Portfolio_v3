@@ -10,16 +10,9 @@ function Form() {
     <form
       name="contact"
       method="POST"
-      onSubmit={(e) => {
-        e.preventDefault();
-        console.log(formData);
-        setFormData({
-          name: '',
-          email: '',
-          message: '',
-        });
-      }}
       className="flex flex-col gap-2 w-full text-white"
+      data-netlify="true"
+      onSubmit="submit"
     >
       <input type="hidden" name="form-name" value="contact" />
       <label htmlFor="name">
