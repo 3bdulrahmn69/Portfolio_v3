@@ -10,7 +10,7 @@ function Form() {
     <form
       name="contact"
       method="POST"
-      action="/success"
+      action="/contact"
       className="flex flex-col gap-2 w-full text-white"
     >
       <input type="hidden" name="form-name" value="contact" />
