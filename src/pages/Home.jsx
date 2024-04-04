@@ -51,7 +51,7 @@ const Home = () => {
           <h3 className="text-2xl font-semibold mb-4">
             Let&apos;s Work Together
           </h3>
-          <p>
+          <p className="md:text-base text-ms">
             Interested in collaborating on a project or learning more about my
             work?
           </p>
