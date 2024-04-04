@@ -13,7 +13,6 @@ function Form() {
       className="flex flex-col gap-2 w-full text-white"
       data-netlify="true"
       onSubmit="submit"
-      action="/contact?success=true"
     >
       <input type="hidden" name="form-name" value="contact" />
       <label htmlFor="name">
