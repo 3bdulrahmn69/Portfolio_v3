@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ReactLenis } from '@studio-freight/react-lenis';
+import { Analytics } from '@vercel/analytics/react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -22,6 +23,7 @@ const App = () => {
         </Routes>
         <Footer />
       </BrowserRouter>
+      <Analytics />
     </ReactLenis>
   );
 };
