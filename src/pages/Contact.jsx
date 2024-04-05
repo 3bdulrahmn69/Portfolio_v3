@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <main aria-labelledby="contact-heading">
-      <Container className="py-4 flex justify-between items-start md:mt-20 mt-0 md:mb-0 mb-24 md:flex-row flex-col relative">
+      <Container className="py-4 flex justify-between items-start md:mt-20 mt-0 md:mb-0 mb-24 md:flex-row flex-col md:static relative">
         <section className="md:w-5/12 w-full animate-FadeIn">
           <div>
             <h2
