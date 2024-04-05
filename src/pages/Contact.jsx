@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <main aria-labelledby="contact-heading">
-      <Container className="py-4 flex justify-between items-start md:mt-20 mt-0 md:mb-0 mb-24 md:flex-row flex-col md:static relative">
+      <Container className="py-4 flex justify-between items-start md:mt-20 mt-0 md:flex-row flex-col">
         <section className="md:w-5/12 w-full animate-FadeIn">
           <div>
             <h2
@@ -35,7 +35,7 @@ const Contact = () => {
               </span>
             </p>
           </div>
-          <div className="mt-6 md:mt-0 md:static absolute -bottom-16">
+          <div className="mt-6 md:mt-0 md:block hidden">
             <h3 className="uppercase text-xl text-white font-bold mb-2">
               Or find me on
             </h3>
