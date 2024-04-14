@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <main>
-      <Container className="py-4">
+      <Container className="py-4 animate-slideDown">
         <h1 className="text-center text-4xl font-semibold mb-4">
           My Recent Projects
         </h1>
