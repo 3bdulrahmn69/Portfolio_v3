@@ -79,8 +79,8 @@ const myProjects = [
     description: 'Some of my small javascript beginner projects',
     img: Small,
     tools: ['HTML', 'JavaScript'],
-    code: 'https://github.com/3bdulrahmn69/Beginner_Projects',
-    demo: 'https://3bdulrahmn69.github.io/Beginner_Projects',
+    code: 'https://github.com/3bdulrahmn69/JavaScript_Small_Pojects',
+    demo: 'https://3bdulrahmn69.github.io/JavaScript_Small_Pojects',
   },
 ];
 
