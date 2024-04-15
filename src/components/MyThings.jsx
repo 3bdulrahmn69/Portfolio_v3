@@ -21,7 +21,7 @@ import {
   SiMaterialdesign,
   SiVitest,
 } from 'react-icons/si';
-import { DiGit, DiMysql } from 'react-icons/di';
+import { DiGit, DiMysql,DiJqueryLogo  } from 'react-icons/di';
 import { TbBrandTailwind, TbBrandGithubCopilot } from 'react-icons/tb';
 import { BiLogoFlask } from 'react-icons/bi';
 
@@ -45,6 +45,10 @@ const mySkills = [
   {
     name: 'Tailwind CSS',
     icon: <TbBrandTailwind />,
+  },
+  {
+    name: 'jQuery',
+    icon: <DiJqueryLogo />,
   },
   {
     name: 'TypeScript',
