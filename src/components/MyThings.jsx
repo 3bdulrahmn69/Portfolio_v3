@@ -21,9 +21,10 @@ import {
   SiMaterialdesign,
   SiVitest,
 } from 'react-icons/si';
-import { DiGit, DiMysql,DiJqueryLogo  } from 'react-icons/di';
+import { DiGit, DiMysql, DiJqueryLogo, DiResponsive } from 'react-icons/di';
 import { TbBrandTailwind, TbBrandGithubCopilot } from 'react-icons/tb';
 import { BiLogoFlask } from 'react-icons/bi';
+import { PiFramerLogoFill } from 'react-icons/pi';
 
 const mySkills = [
   {
@@ -118,8 +119,16 @@ const myTools = [
     icon: <SiVercel />,
   },
   {
-    name: 'Material Design',
+    name: 'Material UI',
     icon: <SiMaterialdesign />,
+  },
+  {
+    name: 'Framer Motion',
+    icon: <PiFramerLogoFill />,
+  },
+  {
+    name: 'Responsive Design',
+    icon: <DiResponsive />,
   },
   {
     name: 'Vite',
