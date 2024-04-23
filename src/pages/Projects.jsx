@@ -37,7 +37,7 @@ const Projects = () => {
 const myProjects = [
   {
     title: 'MercyBridge',
-    description: 'MercyBridge is a website to make donation more easier',
+    description: 'A website to make donation more easier',
     img: MercyBridge,
     tools: ['React js', 'Tailwind CSS', 'I18next ', 'JSON Server', 'Axios'],
     code: 'https://github.com/3bdulrahmn69/mercyBridge',
@@ -45,7 +45,7 @@ const myProjects = [
   },
   {
     title: 'Youtube Clone',
-    description: 'Youtube Clone with youtube api',
+    description: 'A Youtube Clone with youtube api from Rapid API',
     img: Youtube,
     tools: ['React js', 'Axios', 'Material UI', 'Rapid API'],
     code: 'https://github.com/3bdulrahmn69/youtube_clone_v2',
@@ -53,7 +53,7 @@ const myProjects = [
   },
   {
     title: 'LoveLoom',
-    description: 'LoveLoom is a Website to enhance love stories',
+    description: 'A Website to enhance love stories - Memories and more',
     img: LoveLoom,
     tools: ['HTML', 'Tailwind CSS', 'JavaScript', 'GSAP'],
     code: 'https://github.com/3bdulrahmn69/LoveLoom',
@@ -61,14 +61,14 @@ const myProjects = [
   },
   {
     title: 'Estore',
-    description: 'Estore is a website for selling hardware products',
+    description: 'A website for selling hardware products',
     img: EStore,
     tools: ['HTML', 'CSS', 'JavaScript'],
     code: 'https://github.com/3bdulrahmn69/Estore',
   },
   {
     title: 'Bondi',
-    description: 'bootstrap template for a website',
+    description: 'Bootstrap template to practice',
     img: Bondi,
     tools: ['HTML', 'CSS', 'Bootstrap'],
     code: 'https://github.com/3bdulrahmn69/Bondi',
