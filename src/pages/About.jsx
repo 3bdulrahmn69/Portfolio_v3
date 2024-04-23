@@ -111,21 +111,21 @@ const About = () => {
           <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4">
             <div>
               <p>
+                <strong>Bachelor of Commerce</strong> - El Obour Institute,
+                UnderGraduated 2024
+              </p>
+              <p>
+                Majored in Accounting and Finance, with a minor in Business Law.
+              </p>
+            </div>
+            <div>
+              <p>
                 <strong>ALX Africa Software Engineering Program</strong> -
                 Completed 2024
               </p>
               <p>
                 An intensive 12-month course focusing on practical, real-world
                 software development skills and methodologies.
-              </p>
-            </div>
-            <div>
-              <p>
-                <strong>Bachelor of Commerce</strong> - El Obour Institute,
-                Graduated 2024
-              </p>
-              <p>
-                Majored in Accounting and Finance, with a minor in Business Law.
               </p>
             </div>
           </div>
