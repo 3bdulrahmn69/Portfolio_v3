@@ -7,6 +7,7 @@ import EStore from '../assets/EStore.png';
 import LoveLoom from '../assets/LoveLoom.png';
 import Youtube from '../assets/Youtube.png';
 import MercyBridge from '../assets/MercyBridge.png';
+import wowyouconvertit from '../assets/wowyouconvertit.png';
 
 const Projects = () => {
   useEffect(() => {
@@ -36,12 +37,19 @@ const Projects = () => {
 
 const myProjects = [
   {
+    title: 'Wow You Convert It',
+    description: 'See what your salary is worth in other wow currencies',
+    img: wowyouconvertit,
+    tools: ['React js', 'Tailwind CSS'],
+    code: 'https://github.com/3bdulrahmn69/wow_you_convert_it',
+    demo: 'https://wowyouconvertit.netlify.app',
+  },
+  {
     title: 'MercyBridge',
     description: 'A website to make donation more easier',
     img: MercyBridge,
     tools: ['React js', 'Tailwind CSS', 'I18next ', 'JSON Server', 'Axios'],
     code: 'https://github.com/3bdulrahmn69/mercyBridge',
-    underDevelopment: true,
   },
   {
     title: 'Youtube Clone',
