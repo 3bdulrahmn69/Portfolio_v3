@@ -40,7 +40,7 @@ const myProjects = [
     title: 'Wow You Convert It',
     description: 'See what your salary is worth in other wow currencies',
     img: wowyouconvertit,
-    tools: ['React js', 'Tailwind CSS'],
+    tools: ['React js', 'Tailwind CSS', 'Framer motion'],
     code: 'https://github.com/3bdulrahmn69/wow_you_convert_it',
     demo: 'https://wowyouconvertit.netlify.app',
   },
