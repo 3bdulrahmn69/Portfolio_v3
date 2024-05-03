@@ -20,6 +20,7 @@ import {
   SiAxios,
   SiMaterialdesign,
   SiVitest,
+  SiDaisyui,
 } from 'react-icons/si';
 import { DiGit, DiMysql, DiJqueryLogo, DiResponsive } from 'react-icons/di';
 import { TbBrandTailwind, TbBrandGithubCopilot } from 'react-icons/tb';
@@ -121,6 +122,10 @@ const myTools = [
   {
     name: 'Material UI',
     icon: <SiMaterialdesign />,
+  },
+  {
+    name: 'Daisy UI',
+    icon: <SiDaisyui />,
   },
   {
     name: 'Framer Motion',
