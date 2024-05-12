@@ -8,6 +8,7 @@ import LoveLoom from '../assets/LoveLoom.png';
 import Youtube from '../assets/Youtube.png';
 import MercyBridge from '../assets/MercyBridge.png';
 import wowyouconvertit from '../assets/wowyouconvertit.png';
+import MyWatchedMovies from '../assets/MyWatchedMovies.png';
 
 const Projects = () => {
   useEffect(() => {
@@ -36,6 +37,14 @@ const Projects = () => {
 };
 
 const myProjects = [
+  {
+    title: 'My Watched Movies',
+    description: 'A website to keep track of the movies you watched',
+    img: MyWatchedMovies,
+    tools: ['React js', 'Tailwind CSS', 'daisyui', 'OMDb API', 'Axios'],
+    code: 'https://github.com/3bdulrahmn69/my_watched_movies',
+    demo: 'https://mywatchedmovies.netlify.app',
+  },
   {
     title: 'Wow You Convert It',
     description: 'See what your salary is worth in other wow currencies',
