@@ -21,6 +21,13 @@ import {
   SiMaterialdesign,
   SiVitest,
   SiDaisyui,
+  SiNodedotjs,
+  SiRedux,
+  SiMongodb,
+  SiExpress,
+  SiNextdotjs,
+  SiI18Next,
+  SiRapid,
 } from 'react-icons/si';
 import { DiGit, DiMysql, DiJqueryLogo, DiResponsive } from 'react-icons/di';
 import { TbBrandTailwind, TbBrandGithubCopilot } from 'react-icons/tb';
@@ -61,6 +68,18 @@ const mySkills = [
     icon: <FaReact />,
   },
   {
+    name: 'Node Js',
+    icon: <SiNodedotjs />,
+  },
+  {
+    name: 'Express Js',
+    icon: <SiExpress />,
+  },
+  {
+    name: 'Next Js',
+    icon: <SiNextdotjs />,
+  },
+  {
     name: 'Python',
     icon: <FaPython />,
   },
@@ -71,6 +90,10 @@ const mySkills = [
   {
     name: 'MySQL',
     icon: <DiMysql />,
+  },
+  {
+    name: 'MongoDB',
+    icon: <SiMongodb />,
   },
 ];
 
@@ -108,6 +131,14 @@ const myTools = [
     icon: <SiAxios />,
   },
   {
+    name: 'Rapid API',
+    icon: <SiRapid />,
+  },
+  {
+    name: 'i18next',
+    icon: <SiI18Next />,
+  },
+  {
     name: 'Figma',
     icon: <FaFigma />,
   },
@@ -134,6 +165,10 @@ const myTools = [
   {
     name: 'Responsive Design',
     icon: <DiResponsive />,
+  },
+  {
+    name: 'Redux',
+    icon: <SiRedux />,
   },
   {
     name: 'Vite',
