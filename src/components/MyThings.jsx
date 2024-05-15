@@ -27,7 +27,6 @@ import {
   SiExpress,
   SiNextdotjs,
   SiI18Next,
-  SiRapid,
 } from 'react-icons/si';
 import { DiGit, DiMysql, DiJqueryLogo, DiResponsive } from 'react-icons/di';
 import { TbBrandTailwind, TbBrandGithubCopilot } from 'react-icons/tb';
@@ -129,10 +128,6 @@ const myTools = [
   {
     name: 'Axios',
     icon: <SiAxios />,
-  },
-  {
-    name: 'Rapid API',
-    icon: <SiRapid />,
   },
   {
     name: 'i18next',
