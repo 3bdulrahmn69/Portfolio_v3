@@ -9,6 +9,7 @@ import Youtube from '../assets/Youtube.png';
 import MercyBridge from '../assets/MercyBridge.png';
 import wowyouconvertit from '../assets/wowyouconvertit.png';
 import MyWatchedMovies from '../assets/MyWatchedMovies.png';
+import ReactQuizApp from '../assets/ReactQuizApp.png';
 
 const Projects = () => {
   useEffect(() => {
@@ -38,6 +39,14 @@ const Projects = () => {
 
 const myProjects = [
   {
+    title: 'React Quiz App',
+    description: 'web application designed to test users knowledge of React',
+    img: ReactQuizApp,
+    tools: ['React js', 'CSS', 'JSON-SERVER'],
+    code: 'https://github.com/3bdulrahmn69/react_quiz',
+    demo: 'https://3bdulrahmn69-reactquiz.netlify.app',
+  },
+  {
     title: 'My Watched Movies',
     description: 'A website to keep track of the movies you watched',
     img: MyWatchedMovies,
@@ -57,7 +66,7 @@ const myProjects = [
     title: 'MercyBridge',
     description: 'A website to make donation more easier',
     img: MercyBridge,
-    tools: ['React js', 'Tailwind CSS', 'I18next ', 'JSON Server', 'Axios'],
+    tools: ['React js', 'Tailwind CSS', 'I18next ', 'JSON-SERVER', 'Axios'],
     code: 'https://github.com/3bdulrahmn69/mercyBridge',
   },
   {
