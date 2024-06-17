@@ -14,10 +14,10 @@ const IdCard = () => {
           </div>
           <div className="photo">
             <img src={qrCode} alt="Qr Code" className="w-32 mt-4 mx-auto" />
-          </div>
+          </div> 
           <h2 className="text-lg font-bold">Abdulrahman Moussa</h2>
           <h3 className="text-xs font-medium">
-            Software Engineer | Frontend Developer
+            Frontend Developer | React Js
           </h3>
           <h3 className="text-xs font-light mt-2">@3bdulrahmn69</h3>
         </div>

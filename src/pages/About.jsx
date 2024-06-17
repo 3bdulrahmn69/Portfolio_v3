@@ -54,7 +54,7 @@ const About = () => {
           <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4 ">
             <p>
               I&apos;m Abdulrahman Moussa, a passionate and patient frontend
-              engineer based in Cairo, Egypt. My journey as a software engineer
+              developer based in Cairo, Egypt. My journey as a software engineer
               started at ALX Africa, where I completed the intensive 12-month
               Software Engineer track, honing my skills and gaining invaluable
               experience.
@@ -66,9 +66,9 @@ const About = () => {
             </p>
             <p>
               Currently, I&apos;m actively seeking opportunities for either an
-              internship or a full-time position as a Frontend Developer or
-              Software Engineer. I&apos;m eager to apply my skills and
-              contribute to innovative projects that drive meaningful change.
+              internship or a full-time position as a Frontend Developer.
+              I&apos;m eager to apply my skills and contribute to innovative
+              projects that drive meaningful change.
             </p>
             <p>
               From concept to execution, I thrive on bringing ideas to life and
