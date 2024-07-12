@@ -27,9 +27,7 @@ const Home = () => {
                 👋
               </span>
             </div>
-            <p className="md:text-xl text-lg mt-4 mb-2">
-              Frontend Engineer
-            </p>
+            <p className="md:text-xl text-lg mt-4 mb-2">Frontend Developer.</p>
             <p className="mb-2">
               I build web applications with modern technologies and best
               practices to create a seamless user experience.
