@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Container from '../components/Container';
-import MyThings from '../components/MyThings';
 import code from '../assets/code.svg';
+import MySkills from '../components/MySkills';
+import MyTools from '../components/MyTools';
 
 const About = () => {
   useEffect(() => {
@@ -92,7 +93,7 @@ const About = () => {
               I <span className="text-cBlue">Know</span>
             </h3>
             <div className="w-full flex gap-4 flex-wrap justify-center">
-              <MyThings skills={true} />
+              <MySkills />
             </div>
           </article>
           <article>
@@ -100,7 +101,7 @@ const About = () => {
               I <span className="text-cBlue">Use</span>
             </h3>
             <div className="w-full flex gap-4 flex-wrap justify-center">
-              <MyThings skills={false} />
+              <MyTools />
             </div>
           </article>
         </section>
