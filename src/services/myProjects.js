@@ -1,13 +1,13 @@
-import Small from '../assets/projects/Small.png';
-import Bondi from '../assets/projects/Bondi.png';
-import EStore from '../assets/projects/EStore.png';
-import LoveLoom from '../assets/projects/LoveLoom.png';
-import Youtube from '../assets/projects/Youtube.png';
-import MercyBridge from '../assets/projects/MercyBridge.png';
-import WowYouConvertIt from '../assets/projects/WowYouConvertIt.png';
-import MyWatchedMovies from '../assets/projects/MyWatchedMovies.png';
-import ReactQuizApp from '../assets/projects/ReactQuizApp.png';
-import WorldWise from '../assets/projects/WorldWise.png';
+import Small from '../assets/projects/Small.webp';
+import Bondi from '../assets/projects/Bondi.webp';
+import EStore from '../assets/projects/EStore.webp';
+import LoveLoom from '../assets/projects/LoveLoom.webp';
+import Youtube from '../assets/projects/Youtube.webp';
+import MercyBridge from '../assets/projects/MercyBridge.webp';
+import WowYouConvertIt from '../assets/projects/WowYouConvertIt.webp';
+import MyWatchedMovies from '../assets/projects/MyWatchedMovies.webp';
+import ReactQuizApp from '../assets/projects/ReactQuizApp.webp';
+import WorldWise from '../assets/projects/WorldWise.webp';
 
 export const myProjects = [
   {
