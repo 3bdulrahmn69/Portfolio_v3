@@ -16,7 +16,7 @@ export const myProjects = [
     img: WorldWise,
     tools: ['React js', 'CSS', 'Leaflet', 'Geolocation'],
     code: 'https://github.com/3bdulrahmn69/worldWise',
-    underDevelopment: true,
+    demo: 'https://3bdulrahmn69-worldwise.netlify.app',
   },
   {
     title: 'React Quiz App',
