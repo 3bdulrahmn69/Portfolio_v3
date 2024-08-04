@@ -113,10 +113,10 @@ const About = () => {
             <div>
               <p>
                 <strong>Bachelor of Commerce</strong> - El Obour Institute,
-                UnderGraduated 2024
+                Graduated 2024
               </p>
               <p>
-                Majored in Accounting and Finance, with a minor in Business Law.
+                Management Information Systems (MIS) major
               </p>
             </div>
             <div>

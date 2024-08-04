@@ -1,4 +1,4 @@
-import myPic from '../assets/logo.png';
+import myPic from '../assets/myPic.webp';
 import qrCode from '../assets/qr-code.svg';
 
 const IdCard = () => {
