@@ -48,7 +48,7 @@ const About = () => {
             <img src={code} alt="code" className="w-full h-auto" />
           </div>
         </section>
-        <section className="animate-slideUp">
+        <section className="animate-slideUp read">
           <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
             About <span className="text-cBlue">Me</span>
           </h3>
@@ -105,7 +105,7 @@ const About = () => {
             </div>
           </article>
         </section>
-        <section className="animate-slideUp">
+        <section className="animate-slideUp read">
           <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
             Education
           </h3>
@@ -128,7 +128,7 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section className="animate-slideUp">
+        <section className="animate-slideUp read">
           <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
             My <span className="text-cBlue">Hobbies</span>
           </h3>
