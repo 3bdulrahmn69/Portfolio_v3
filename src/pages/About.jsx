@@ -112,11 +112,8 @@ const About = () => {
           <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4">
             <div>
               <p>
-                <strong>Bachelor of Commerce</strong> - El Obour Institute,
-                Graduated 2024
-              </p>
-              <p>
-                Management Information Systems (MIS) major
+                <strong>Bachelor of Management Information Systems</strong> - El
+                Obour Institute, Graduated 2024
               </p>
             </div>
             <div>
