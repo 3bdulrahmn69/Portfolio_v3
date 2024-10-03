@@ -16,7 +16,7 @@ const About = () => {
       <Container className="py-8">
         <section className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-5/12 w-full flex flex-col items-center md:items-start animate-FadeIn">
-            <div className="mb-8">
+            <div>
               <div className="flex items-center">
                 <h1 className="text-2xl mb-2">Hey again!</h1>
                 <span
@@ -31,14 +31,16 @@ const About = () => {
                 Let me tell you a bit more about myself
               </h2>
             </div>
+            <div className="w-full flex justify-center">
+              <p className="text-2xl text-white uppercase font-black">Or</p>
+            </div>
             <div className="flex justify-center flex-col items-center md:items-start gap-4">
               <p className="text-xl">
-                <span className="text-2xl text-white">Or</span> Wanna connect -
-                collaborate on a project?
+                Wanna connect - collaborate on a project?
               </p>
               <Link
                 to="/contact"
-                className="w-fit py-4 px-16 rounded-full uppercase font-medium bg-transparent border border-white text-white hover:bg-white hover:text-cBlack duration-300 transition-colors"
+                className="md:self-end w-fit py-4 px-16 rounded-full uppercase font-medium bg-transparent border border-white text-white hover:bg-white hover:text-cBlack duration-300 transition-colors"
               >
                 Contact Me
               </Link>
@@ -107,23 +109,39 @@ const About = () => {
         </section>
         <section className="animate-slideUp read">
           <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
-            Education
+            Education & <span className="text-cBlue">Courses</span>
           </h3>
           <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4">
             <div>
               <p>
-                <strong>Bachelor of Management Information Systems</strong> - El
-                Obour Institute, Graduated 2024
+                <strong>• Bachelor of Management Information Systems</strong> -
+                El Obour Institute, Graduated 2024
               </p>
             </div>
             <div>
               <p>
-                <strong>ALX Africa Software Engineering Program</strong> -
+                <strong>• ALX Africa Software Engineering Program</strong> -
                 Completed 2024
               </p>
               <p>
                 An intensive 12-month course focusing on practical, real-world
                 software development skills and methodologies.
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>
+                  • The Complete JavaScript Course 2024: From Zero to Expert
+                </strong>{' '}
+                - Jonas Schmedtmann Udemy, Completed 2024
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>
+                  • The Ultimate React Course 2024: React, Next.js
+                </strong>{' '}
+                - Jonas Schmedtmann Udemy, Completed 2024
               </p>
             </div>
           </div>

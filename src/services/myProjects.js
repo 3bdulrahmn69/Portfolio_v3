@@ -8,8 +8,17 @@ import WowYouConvertIt from '../assets/projects/WowYouConvertIt.webp';
 import MyWatchedMovies from '../assets/projects/MyWatchedMovies.webp';
 import ReactQuizApp from '../assets/projects/ReactQuizApp.webp';
 import WorldWise from '../assets/projects/WorldWise.webp';
+import EchoTune from '../assets/projects/EchoTune.webp';
 
 export const myProjects = [
+  {
+    title: 'EchoTune',
+    description: 'Web Application to discover new music from Spotify API',
+    img: EchoTune,
+    tools: ['React js', 'Tailwind CSS', 'Rapid API (Spotify API)', 'Axios'],
+    code: 'https://github.com/3bdulrahmn69/echo_tune',
+    demo: 'https://3bdulrahmn69-echotune.netlify.app',
+  },
   {
     title: 'WorldWise',
     description: 'Web Application to track your travel around the world',
