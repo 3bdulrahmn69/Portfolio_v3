@@ -4,6 +4,7 @@ import Container from '../components/Container';
 import code from '../assets/code.svg';
 import MySkills from '../components/MySkills';
 import MyTools from '../components/MyTools';
+import Certification from '../components/Certification';
 
 const About = () => {
   useEffect(() => {
@@ -109,13 +110,17 @@ const About = () => {
         </section>
         <section className="animate-slideUp read">
           <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
-            Education & <span className="text-cBlue">Courses</span>
+            Education
           </h3>
           <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4">
             <div>
               <p>
                 <strong>• Bachelor of Management Information Systems</strong> -
                 El Obour Institute, Graduated 2024
+              </p>
+              <p>
+                A 4-year of education focusing on information systems, database
+                design and management, and software development.
               </p>
             </div>
             <div>
@@ -128,6 +133,13 @@ const About = () => {
                 software development skills and methodologies.
               </p>
             </div>
+          </div>
+        </section>
+        <section className="animate-slideUp read">
+          <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
+            Courses
+          </h3>
+          <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4">
             <div>
               <p>
                 <strong>
@@ -135,13 +147,52 @@ const About = () => {
                 </strong>{' '}
                 - Jonas Schmedtmann Udemy, Completed 2024
               </p>
+              <p>
+                A comprehensive course covering JavaScript fundamentals, ES6+,
+                and advanced concepts.
+              </p>
             </div>
             <div>
               <p>
                 <strong>
                   • The Ultimate React Course 2024: React, Next.js
                 </strong>{' '}
-                - Jonas Schmedtmann Udemy, Completed 2024
+                - Jonas Schmedtmann Udemy,{' '}
+                <span className="uppercase">In Progress</span>
+              </p>
+              <p>
+                A deep dive into React.js, Next.js, and advanced React concepts.
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>• Summer Front-End Web Development Using React </strong>{' '}
+                - ITI, Completed 2024
+              </p>
+              <p>
+                A 1-month course focusing on front-end web development using
+                React.js and related technologies.
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>• AI Career Essentials (AiCE) </strong> - ALX Africa,
+                Completed 2024
+              </p>
+              <p>
+                A 6-week course focusing on AI and machine learning concepts and
+                AI tools, how to use them, how did they work, and how to works
+                with them.
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>• Founder Academy </strong> - ALX Ventures, Completed
+                2024
+              </p>
+              <p>
+                A 3-month course focusing on entrepreneurship, how to start a
+                business, how to grow it, and how to scale it.
               </p>
             </div>
           </div>
@@ -150,7 +201,7 @@ const About = () => {
           <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
             My <span className="text-cBlue">Hobbies</span>
           </h3>
-          <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4 ">
+          <div className="text-lg text-gray-700 font-light leading-relaxed tracking-wide text-justify my-4">
             <p>
               When I&apos;m not coding, you can find me indulging in various
               activities. I love playing video games, watching movies and TV
@@ -172,6 +223,31 @@ const About = () => {
               enjoyable way to stay connected and engage with the world around
               me.
             </p>
+          </div>
+        </section>
+        <section className="animate-slideUp">
+          <h3 className="text-3xl font-black my-4 uppercase bg-gray-300/40 rounded-3xl py-2 text-center">
+            Certifications
+          </h3>
+          <div>
+            <Certification
+              name="Software Engineering"
+              from="ALX Africa"
+              ImgLink="https://alx-intranet-active-storage-production.s3.amazonaws.com/igodp4c7o7t8okuf9akuohygeqag?response-content-disposition=inline%3B%20filename%3D%2217-short-specializations-certificate-abdulrahman-moussa.png%22%3B%20filename%2A%3DUTF-8%27%2717-short-specializations-certificate-abdulrahman-moussa.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20241011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241011T111404Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b2624f81c19e5c4ed7cf3c5a64af0a4bca4b6da6de887c80565b737c290ae6a9"
+              cLink="https://intranet.alxswe.com/certificates/SzYXcy2N6M"
+            />
+            <Certification
+              name="AI Career Essentials (AiCE)"
+              from="ALX Africa"
+              ImgLink="https://intranet.alxswe.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeVpoRnc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af77d87d56f0e1809c5e9d571ad1d706b8d5cf57/73-alx-aice-ai-career-essentials-certificate-abdulrahman-moussa.png"
+              cLink="https://intranet.alxswe.com/certificates/J8RhZXpYBs"
+            />
+            <Certification
+              name="Founder Academy"
+              from="ALX Ventures"
+              ImgLink="https://intranet.alxswe.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMzN3RWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--91db9ba5c47ff1640baa3f9d6206a2fbf069329f/50-founder-academy-certificate-abdulrahman-moussa.png"
+              cLink="https://intranet.alxswe.com/certificates/sy62TnCxN9"
+            />
           </div>
         </section>
       </Container>
