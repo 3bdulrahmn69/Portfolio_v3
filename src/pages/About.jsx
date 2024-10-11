@@ -233,7 +233,7 @@ const About = () => {
             <Certification
               name="Software Engineering"
               from="ALX Africa"
-              ImgLink="https://alx-intranet-active-storage-production.s3.amazonaws.com/igodp4c7o7t8okuf9akuohygeqag?response-content-disposition=inline%3B%20filename%3D%2217-short-specializations-certificate-abdulrahman-moussa.png%22%3B%20filename%2A%3DUTF-8%27%2717-short-specializations-certificate-abdulrahman-moussa.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20241011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241011T111404Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=b2624f81c19e5c4ed7cf3c5a64af0a4bca4b6da6de887c80565b737c290ae6a9"
+              ImgLink="https://intranet.alxswe.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9yQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6e6c1583b4be32087868eb1397d4a8786a59319b/17-short-specializations-certificate-abdulrahman-moussa.png"
               cLink="https://intranet.alxswe.com/certificates/SzYXcy2N6M"
             />
             <Certification
