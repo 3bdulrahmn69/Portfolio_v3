@@ -10,10 +10,10 @@ const IdCard = () => {
       <div className="id-card-holder">
         <div className="id-card">
           <div>
-            <img src={myPic} alt="myPic" className="w-28 mt-4 mx-auto" />
+            <img src={myPic} alt="myPic" className="w-28 mt-4 mx-auto" loading='lazy' />
           </div>
           <div className="photo">
-            <img src={qrCode} alt="Qr Code" className="w-32 mt-4 mx-auto" />
+            <img src={qrCode} alt="Qr Code" className="w-32 mt-4 mx-auto" loading='lazy' />
           </div>
           <h2 className="text-lg font-bold">Abdulrahman Moussa</h2>
           <h3 className="text-xs font-medium">Frontend Developer</h3>
