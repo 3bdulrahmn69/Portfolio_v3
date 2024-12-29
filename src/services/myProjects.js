@@ -9,8 +9,24 @@ import MyWatchedMovies from '../assets/projects/MyWatchedMovies.webp';
 import ReactQuizApp from '../assets/projects/ReactQuizApp.webp';
 import WorldWise from '../assets/projects/WorldWise.webp';
 import EchoTune from '../assets/projects/EchoTune.webp';
+import Planify from '../assets/projects/Planify.webp';
 
 export const myProjects = [
+  {
+    title: 'Planify',
+    description: 'Your personal planner to organize your day',
+    img: Planify,
+    tools: [
+      'React js',
+      'Tailwind CSS',
+      'React DnD',
+      'Konva.js',
+      'local storage',
+    ],
+    code: 'https://github.com/3bdulrahmn69/planify',
+    demo: 'https://3bdulrahmn69-planify.netlify.app',
+    underDevelopment: true,
+  },
   {
     title: 'EchoTune',
     description: 'Web Application to discover new music from Spotify API',
