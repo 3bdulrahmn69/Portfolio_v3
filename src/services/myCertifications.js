@@ -3,7 +3,7 @@ export const myCertifications = [
     name: 'Software Engineering',
     from: 'ALX Africa',
     ImgLink:
-      'https://intranet.alxswe.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9yQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6e6c1583b4be32087868eb1397d4a8786a59319b/17-short-specializations-certificate-abdulrahman-moussa.png',
+      'https://alx-intranet-active-storage-production.s3.amazonaws.com/zy1q2rmp436c7z4g1aix8mwctb9q?response-content-disposition=inline%3B%20filename%3D%2217-short-specializations-certificate-abdulrahman-moussa.png%22%3B%20filename%2A%3DUTF-8%27%2717-short-specializations-certificate-abdulrahman-moussa.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20250201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250201T061727Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=9da388fa92de51491a756a9a64e88087d7ab10307f796b9ad03c30a2cca96e0d',
     url: 'https://intranet.alxswe.com/certificates/SzYXcy2N6M',
     date: '2024-04-12',
   },
