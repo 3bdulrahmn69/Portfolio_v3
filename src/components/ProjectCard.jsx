@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => {
       {project.underDevelopment && (
         <div className="under_development">under development</div>
       )}
+      {project.paid && <div className="paid">paid</div>}
       <figure className="h-2/3 overflow-hidden">
         <img
           src={project.img}
@@ -33,16 +34,18 @@ const ProjectCard = ({ project }) => {
           </ul>
         </div>
         <div className="flex gap-4 mt-4">
-          <a
-            href={project.code}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 inline-block bg-cBlack text-white py-2 px-4 rounded-lg text-center transition-colors duration-300 hover:bg-cBlack-dark"
-          >
-            <IconContext.Provider value={{ className: 'inline-block mr-2' }}>
-              <FiGithub /> Code
-            </IconContext.Provider>
-          </a>
+          {project.code && (
+            <a
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 inline-block bg-cBlack text-white py-2 px-4 rounded-lg text-center transition-colors duration-300 hover:bg-cBlack-dark"
+            >
+              <IconContext.Provider value={{ className: 'inline-block mr-2' }}>
+                <FiGithub /> Code
+              </IconContext.Provider>
+            </a>
+          )}
           {project.demo && (
             <a
               href={project.demo}
@@ -51,7 +54,7 @@ const ProjectCard = ({ project }) => {
               className="flex-1 inline-block bg-cBlue text-white py-2 px-4 rounded-lg text-center transition-colors duration-300 hover:bg-cBlue-dark"
             >
               <IconContext.Provider value={{ className: 'inline-block mr-2' }}>
-                <MdWeb /> Demo
+                <MdWeb /> Live
               </IconContext.Provider>
             </a>
           )}
@@ -67,9 +70,10 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     tools: PropTypes.arrayOf(PropTypes.string).isRequired,
-    code: PropTypes.string.isRequired,
+    code: PropTypes.string,
     demo: PropTypes.string,
     underDevelopment: PropTypes.bool,
+    paid: PropTypes.bool,
   }).isRequired,
 };
 

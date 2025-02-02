@@ -13,6 +13,15 @@ import Planify from '../assets/projects/Planify.webp';
 
 export const myProjects = [
   {
+    title: 'Seven Design Studio',
+    description:
+      'A portfolio website for Seven Design Studio to showcase their work and services',
+    img: 'https://raw.githubusercontent.com/drme990/7DStudio---Updated-Jan---2025/refs/heads/main/public/thumbnail.png',
+    tools: ['React js', 'Tailwind CSS', 'Framer Motion'],
+    demo: 'https://www.7-design.net',
+    paid: true,
+  },
+  {
     title: 'Planify',
     description: 'Your personal planner to organize your day',
     img: Planify,
